@@ -17,9 +17,9 @@ export default hopeTheme({
 
   // logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
-  repo: "https://github.com/XTsat/XTsat",
-
-  docsDir: "src",
+  repo: "https://github.com/XTsat/xtsat.github.io",
+  docsBranch: "vp-hope",
+  docsDir: "docs",
 
   blog: {
     medias: {
