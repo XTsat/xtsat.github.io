@@ -1,43 +1,27 @@
 ---
 home: true
-layout: BlogHome
-icon: home
-title: Home
-bgImage: https://bing.img.run/rand.php
-# heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: Welcome to my blog
-tagline: Share Efficient Tools and Usage Guides
-# heroFullScreen: true
+layout: Blog
+icon: house
+title: XTsat
+heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroText: XTsat
+tagline: My personal blog
+heroFullScreen: true
 projects:
-  - icon: project
-    name: project name
-    desc: project detailed description
-    link: https://your.project.link
+  - icon: 
+    name: BrowserPicker
+    desc: 
+    link: https://github.com/XTsat/BrowserPicker_i18n
 
-  - icon: link
-    name: link name
-    desc: link detailed description
-    link: https://link.address
+  - icon: 
+    name: PortableRegistrator
+    desc: 
+    link: https://github.com/XTsat/PortableRegistrator_zh
 
-  - icon: book
-    name: book name
-    desc: Detailed description of the book
-    link: https://link.to.your.book
+  - icon: 
+    name: Watt Toolkit-Guide
+    desc: 
+    link: https://xtsat.github.io/SteamTools-Guide
 
-  - icon: article
-    name: article name
-    desc: Detailed description of the article
-    link: https://link.to.your.article
-
-  - icon: friend
-    name: friend name
-    desc: Detailed description of friend
-    link: https://link.to.your.friend
-
-  - icon: https://theme-hope-assets.vuejs.press/logo.svg
-    name: custom item
-    desc: Detailed description of this custom item
-    link: https://link.to.your.friend
-
-footer: customize your footer text
+footer: My personal blog
 ---

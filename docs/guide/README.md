@@ -1,11 +1,10 @@
 ---
-title: 主要功能与配置演示
+title: 文档
 index: false
 icon: laptop-code
 article: false
-
 category:
-  - 使用指南
+  - 文档
 ---
 
 <Catalog />

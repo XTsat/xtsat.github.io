@@ -1,10 +1,11 @@
 ---
 icon: lock
+article: false
+index: false
 category:
   - 使用指南
 tag:
   - 加密
-article: false
 ---
 
 # 密码加密的文章

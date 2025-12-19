@@ -4,56 +4,24 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://xtsat.github.io/",
+  hostname: "https://github.com/XTsat",
 
   author: {
-    name: "晓同",
-    url: "https://xtsat.github.io/",
+    name: "XTsat",
+    url: "https://mister-hope.com",
   },
 
-  
+  logo: "https://avatars.githubusercontent.com/u/44708609?v=4",
 
-  iconAssets: "fontawesome-with-brands",
+  repo: "XTsat/XTsat/tree/vp-hope",
 
-  // logo: "https://theme-hope-assets.vuejs.press/logo.svg",
-
-  repo: "https://github.com/XTsat/xtsat.github.io",
-  docsBranch: "vp-hope",
   docsDir: "docs",
 
   blog: {
     medias: {
-      // Baidu: "https://example.com",
-      // BiliBili: "https://example.com",
-      // Bitbucket: "https://example.com",
-      // Dingding: "https://example.com",
-      // Discord: "https://example.com",
-      // Dribbble: "https://example.com",
-      // Email: "mailto:info@example.com",
-      // Evernote: "https://example.com",
-      // Facebook: "https://example.com",
-      // Flipboard: "https://example.com",
-      // Gitee: "https://example.com",
+
       GitHub: "https://github.com/XTsat",
-      // Gitlab: "https://example.com",
-      // Gmail: "mailto:info@example.com",
-      // Instagram: "https://example.com",
-      // Lark: "https://example.com",
-      // Lines: "https://example.com",
-      // Linkedin: "https://example.com",
-      // Pinterest: "https://example.com",
-      // Pocket: "https://example.com",
-      // QQ: "https://example.com",
-      // Qzone: "https://example.com",
-      // Reddit: "https://example.com",
-      // Rss: "https://example.com",
-      // Steam: "https://example.com",
-      // Twitter: "https://example.com",
-      // Wechat: "https://example.com",
-      // Weibo: "https://example.com",
-      // Whatsapp: "https://example.com",
-      // Youtube: "https://example.com",
-      // Zhihu: "https://example.com",
+
       // VuePressThemeHope: {
       //   icon: "https://theme-hope-assets.vuejs.press/logo.svg",
       //   link: "https://theme-hope.vuejs.press",
@@ -62,26 +30,20 @@ export default hopeTheme({
   },
 
   locales: {
-    
-    /**
-     * Chinese locale config
-    */
-   "/": {
-     // navbar
+
+    "/": {
       navbar: zhNavbar,
-      
-      // sidebar
       sidebar: zhSidebar,
-      
-      footer: "欢迎",
-      
+
+      footer: "我的个人博客",
+
       displayFooter: true,
-      
+
       blog: {
         description: "",
         intro: "/intro.html",
       },
-      
+
       // page meta
       metaLocales: {
         editLink: "在 GitHub 上编辑此页",
@@ -89,10 +51,7 @@ export default hopeTheme({
     },
 
     "/en/": {
-      // navbar
       navbar: enNavbar,
-
-      // sidebar
       sidebar: enSidebar,
 
       footer: "Default footer",
@@ -100,7 +59,7 @@ export default hopeTheme({
       displayFooter: true,
 
       blog: {
-        description: "",
+        description: "A FrontEnd programmer",
         intro: "/en/intro.html",
       },
 
@@ -108,17 +67,94 @@ export default hopeTheme({
         editLink: "Edit this page on GitHub",
       },
     },
+
   },
 
-  encrypt: {
-    config: {
-      "/demo/encrypt.html": ["1234"],
-      "/en/demo/encrypt.html": ["1234"],
-    },
-  },
+  // encrypt: {
+  //   config: {
+  //     "/demo/encrypt.html": {
+  //       hint: "Password: 1234",
+  //       password: "1234",
+  //     },
+  //     "/zh/demo/encrypt.html": {
+  //       hint: "Password: 1234",
+  //       password: "1234",
+  //     },
+  //   },
+  // },
 
   // enable it to preview all changes in time
   // hotReload: true,
+
+  // These features are enabled for demo, only preserve features you need here
+  markdown: {
+    align: true,
+    attrs: true,
+    codeTabs: true,
+    component: true,
+    demo: true,
+    figure: true,
+    gfm: true,
+    imgLazyload: true,
+    imgSize: true,
+    include: true,
+    mark: true,
+    plantuml: true,
+    spoiler: true,
+    stylize: [
+      {
+        matcher: "Recommended",
+        replacer: ({ tag }) => {
+          if (tag === "em")
+            return {
+              tag: "Badge",
+              attrs: { type: "tip" },
+              content: "Recommended",
+            };
+        },
+      },
+    ],
+    sub: true,
+    sup: true,
+    tabs: true,
+    tasklist: true,
+    vPre: true,
+
+    // uncomment these if you need TeX support
+    // math: {
+    //   // install katex before enabling it
+    //   type: "katex",
+    //   // or install @mathjax/src before enabling it
+    //   type: "mathjax",
+    // },
+
+    // install chart.js before enabling it
+    // chartjs: true,
+
+    // install echarts before enabling it
+    // echarts: true,
+
+    // install flowchart.ts before enabling it
+    // flowchart: true,
+
+    // install mermaid before enabling it
+    // mermaid: true,
+
+    // playground: {
+    //   presets: ["ts", "vue"],
+    // },
+
+    // install @vue/repl before enabling it
+    // vuePlayground: true,
+
+    // install sandpack-vue3 before enabling it
+    // sandpack: true,
+
+    // install @vuepress/plugin-revealjs and uncomment these if you need slides
+    // revealjs: {
+    //   plugins: ["highlight", "math", "search", "notes", "zoom"],
+    // },
+  },
 
   plugins: {
     blog: true,
@@ -135,77 +171,8 @@ export default hopeTheme({
       components: ["Badge", "VPCard"],
     },
 
-    // These features are enabled for demo, only preserve features you need here
-    markdownImage: {
-      figure: true,
-      lazyload: true,
-      size: true,
-    },
-
-    // markdownMath: {
-    //   // install katex before enabling it
-    //   type: "katex",
-    //   // or install mathjax-full before enabling it
-    //   type: "mathjax",
-    // },
-
-    // This features is enabled for demo, only preserve if you need it
-    markdownTab: true,
-
-    // These features are enabled for demo, only preserve features you need here
-    mdEnhance: {
-      align: true,
-      attrs: true,
-      component: true,
-      demo: true,
-      include: true,
-      mark: true,
-      plantuml: true,
-      spoiler: true,
-      stylize: [
-        {
-          matcher: "Recommended",
-          replacer: ({ tag }) => {
-            if (tag === "em")
-              return {
-                tag: "Badge",
-                attrs: { type: "tip" },
-                content: "Recommended",
-              };
-          },
-        },
-      ],
-      sub: true,
-      sup: true,
-      tasklist: true,
-      vPre: true,
-
-      // install chart.js before enabling it
-      // chart: true,
-
-      // insert component easily
-
-      // install echarts before enabling it
-      // echarts: true,
-
-      // install flowchart.ts before enabling it
-      // flowchart: true,
-
-      // gfm requires mathjax-full to provide tex support
-      // gfm: true,
-
-      // install mermaid before enabling it
-      // mermaid: true,
-
-      // playground: {
-      //   presets: ["ts", "vue"],
-      // },
-
-      // install @vue/repl before enabling it
-      // vuePlayground: true,
-
-      // install sandpack-vue3 before enabling it
-      // sandpack: true,
+    icon: {
+      prefix: "fa6-solid:",
     },
 
     // install @vuepress/plugin-pwa and uncomment these if you want a PWA
@@ -263,11 +230,6 @@ export default hopeTheme({
     //       },
     //     ],
     //   },
-    // },
-
-    // install @vuepress/plugin-revealjs and uncomment these if you need slides
-    // revealjs: {
-    //   plugins: ["highlight", "math", "search", "notes", "zoom"],
     // },
   },
 });

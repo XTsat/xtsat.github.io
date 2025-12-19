@@ -8,13 +8,13 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "晓同",
-      description: "",
+      title: "XTsat",
+      description: "我的个人博客",
     },
     "/en/": {
       lang: "en-US",
-      title: "XTsat",
-      description: "",
+      title: "Blog Demo",
+      description: "A blog demo for vuepress-theme-hope",
     },
   },
 

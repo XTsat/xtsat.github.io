@@ -1,43 +1,33 @@
 ---
 home: true
-layout: BlogHome
-icon: home
+layout: Blog
+icon: house
 title: 首页
-bgImage: https://bing.img.run/rand.php
-# heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: 欢迎来到我的博客
-# heroFullScreen: true
-tagline: 分享高效工具与使用指南
+heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroText: XTsat
+tagline: 我的个人博客
+heroFullScreen: true
 projects:
-  - icon: project
-    name: 项目名称
-    desc: 项目详细描述
-    link: 
+  - icon: 
+    name: BrowserPicker
+    desc: 浏览器选择器
+    link: https://github.com/XTsat/BrowserPicker_i18n
 
-  - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: 
+  - icon: 
+    name: PortableRegistrator
+    desc: 便携软件注册器
+    link: https://github.com/XTsat/PortableRegistrator_zh
 
-  - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
-    link: 
+  - icon: 
+    name: Watt Toolkit-Guide
+    desc: 瓦特工具箱使用教程
+    link: https://xtsat.github.io/SteamTools-Guide
 
-  - icon: article
-    name: 文章名称
-    desc: 文章详细描述
-    link: 
-
-  - icon: friend
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: 
-
-  - icon: list
-    name: 自定义项目
-    desc: 自定义详细介绍
-    link: 
-
-footer: 欢迎观看我的个人博客
+footer: 我的个人博客
 ---
+
+这是一个博客主页的案例。
+
+要使用此布局，你应该在页面前端设置 `layout: Blog` 和 `home: true`。
+
+相关配置文档请见 [博客主页](https://theme-hope.vuejs.press/zh/guide/blog/home.html)。

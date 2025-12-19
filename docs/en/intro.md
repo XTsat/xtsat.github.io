@@ -3,6 +3,6 @@ icon: circle-info
 cover: /assets/images/cover3.jpg
 ---
 
-# Intro Page
+# Personal introduction
 
-Place your introduction and profile here.
+I will share with you the projects and software I often use, and I have also sinicized and optimized some software for everyone to use

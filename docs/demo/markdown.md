@@ -1,12 +1,13 @@
 ---
 title: Markdown 展示
-icon: fab fa-markdown
+icon: fa6-brands:markdown
 order: 2
+article: false
+index: false
 category:
   - 使用指南
 tag:
   - Markdown
-article: false
 ---
 
 VuePress 主要从 Markdown 文件生成页面。因此，你可以使用它轻松生成文档或博客站点。
@@ -84,7 +85,7 @@ $$
 = \left(\frac {y^{\omega}} {\omega}\right) \left\{(\log y)^r + \sum_{i=1}^r \frac {(-1)^i r \cdots (r-i+1) (\log y)^{r-i}} {\omega^i} \right\}
 $$
 
-- [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/grammar/tex.html)
+- [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/grammar/math.html)
 
 #### 任务列表
 
@@ -103,7 +104,7 @@ $$
 
 19^th^ H~2~O
 
-- [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/grammar/sup-sub.html)
+- [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/stylize/sup-sub.html)
 
 #### 组件
 
@@ -201,36 +202,6 @@ VuePress Theme Hope !!十分强大!!.
 向 Mr.Hope 捐赠一杯咖啡。 _Recommended_
 
 - [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/stylize/stylize.html)
-
-#### 图表
-
-<iframe src="https://plugin-md-enhance-demo.vuejs.press/snippet/chartjs.html" width="100%" height="450"/>
-
-- [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/chart/chartjs.html)
-
-#### ECharts
-
-<iframe src="https://plugin-md-enhance-demo.vuejs.press/snippet/echarts.html" width="100%" height="800"/>
-
-- [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/chart/echarts.html)
-
-#### 流程图
-
-<iframe src="https://plugin-md-enhance-demo.vuejs.press/snippet/flowchart.html" width="100%" height="450"/>
-
-- [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/chart/flowchart.html)
-
-#### MarkMap
-
-<iframe src="https://plugin-md-enhance-demo.vuejs.press/snippet/markmap.html" width="100%" height="380"/>
-
-- [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/chart/markmap.html)
-
-#### Mermaid
-
-<iframe src="https://plugin-md-enhance-demo.vuejs.press/snippet/mermaid.html" width="100%" height="620"/>
-
-- [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/chart/mermaid.html)
 
 #### PlantUML
 

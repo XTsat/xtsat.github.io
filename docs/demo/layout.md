@@ -2,11 +2,12 @@
 title: 布局
 icon: object-group
 order: 2
+article: false
+index: false
 category:
   - 指南
 tag:
   - 布局
-article: false
 ---
 
 布局包括:
