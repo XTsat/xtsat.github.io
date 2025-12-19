@@ -47,11 +47,6 @@ jobs:
           target_branch: gh-pages
           # 部署目录为 VuePress 的默认输出目录
           build_dir: docs/.vuepress/dist
-          # 强制推送（解决 gh-pages 分支历史冲突）
-          force: true
-          # 指定 git 提交用户（避免匿名推送失败）
-          author_name: "GitHub Actions"
-          author_email: "actions@github.com"
         env:
           # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
