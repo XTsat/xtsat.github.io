@@ -4,7 +4,7 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://github.com/XTsat",
+  hostname: "https://github.com/XTsat/xtsat.github.io",
 
   author: {
     name: "XTsat",
@@ -13,14 +13,14 @@ export default hopeTheme({
 
   logo: "https://avatars.githubusercontent.com/u/44708609?v=4",
 
-  repo: "XTsat/XTsat/tree/vp-hope",
+  repo: "XTsat/xtsat.github.io",
 
   docsDir: "docs",
 
   blog: {
     medias: {
 
-      GitHub: "https://github.com/XTsat",
+      GitHub: "https://github.com/XTsat/xtsat.github.io",
 
       // VuePressThemeHope: {
       //   icon: "https://theme-hope-assets.vuejs.press/logo.svg",
