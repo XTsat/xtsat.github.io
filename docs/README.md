@@ -3,11 +3,17 @@ home: true
 layout: Blog
 icon: house
 title: 首页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+# heroImage: https://theme-hope-assets.vuejs.press/logo.svg
 heroText: XTsat
 tagline: 我的个人博客
 heroFullScreen: true
 projects:
+
+  - icon: 
+    name: CompactGUI
+    desc: Steam 游戏一键无损压缩，可运行
+    link: https://github.com/XTsat/CompactGUI_i18n
+
   - icon: 
     name: BrowserPicker
     desc: 浏览器选择器
@@ -26,8 +32,6 @@ projects:
 footer: 我的个人博客
 ---
 
-这是一个博客主页的案例。
+这是我的博客主页。
 
-要使用此布局，你应该在页面前端设置 `layout: Blog` 和 `home: true`。
-
-相关配置文档请见 [博客主页](https://theme-hope.vuejs.press/zh/guide/blog/home.html)。
+<!-- 配置文档请见 [博客主页](https://theme-hope.vuejs.press/zh/guide/blog/home.html)。 -->

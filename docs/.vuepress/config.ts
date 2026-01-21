@@ -13,8 +13,8 @@ export default defineUserConfig({
     },
     "/en/": {
       lang: "en-US",
-      title: "Blog Demo",
-      description: "A blog demo for vuepress-theme-hope",
+      title: "XTsat",
+      description: "My personal blog",
     },
   },
 

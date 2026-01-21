@@ -17,10 +17,12 @@ export default hopeTheme({
 
   docsDir: "docs",
 
+  docsBranch: "vp-hope",
+
   blog: {
     medias: {
 
-      GitHub: "https://github.com/XTsat/xtsat.github.io",
+      GitHub: "https://github.com/XTsat",
 
       // VuePressThemeHope: {
       //   icon: "https://theme-hope-assets.vuejs.press/logo.svg",
@@ -46,7 +48,7 @@ export default hopeTheme({
 
       // page meta
       metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
+        editLink: "编辑此页",
       },
     },
 
@@ -54,17 +56,17 @@ export default hopeTheme({
       navbar: enNavbar,
       sidebar: enSidebar,
 
-      footer: "Default footer",
+      footer: "My personal blog",
 
       displayFooter: true,
 
       blog: {
-        description: "A FrontEnd programmer",
+        description: "",
         intro: "/en/intro.html",
       },
 
       metaLocales: {
-        editLink: "Edit this page on GitHub",
+        editLink: "Edit this page",
       },
     },
 
