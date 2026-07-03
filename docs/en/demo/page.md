@@ -5,6 +5,8 @@ title: Page Config
 icon: file
 # This control sidebar order
 order: 3
+article: false
+index: false
 # Set author
 author: Ms.Hope
 # Set writing time

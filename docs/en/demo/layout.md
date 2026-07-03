@@ -2,6 +2,8 @@
 title: Layout
 icon: object-group
 order: 2
+article: false
+index:: false
 category:
   - Guide
 tag:
