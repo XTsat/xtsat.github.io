@@ -174,6 +174,7 @@ export default hopeTheme({
     },
 
     icon: {
+      assets: "fontawesome",
       prefix: "fa6-solid:",
     },
 

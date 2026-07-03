@@ -29,7 +29,15 @@ projects:
     desc: 瓦特工具箱使用教程
     link: https://xtsat.github.io/SteamTools-Guide
 
-footer: 我的个人博客
+  - icon: 
+    name: Astrbot 插件
+    desc: 个人维护的 AstrBot 插件列表
+    link: ./guide/astrbot/
+
+  - icon: 
+    name: LM-Speed-X
+    desc: LLM API 测速工具，支持多平台速度测试
+    link: https://lm-speed-x.xtsat.cc.cd/
 ---
 
 这是我的博客主页。
