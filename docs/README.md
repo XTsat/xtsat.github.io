@@ -27,7 +27,7 @@ projects:
   - icon: 
     name: Watt Toolkit-Guide
     desc: 瓦特工具箱使用教程
-    link: https://xtsat.github.io/SteamTools-Guide
+    link: https://steamtools-guide.xtsat.cc.cd/
 
   - icon: 
     name: Astrbot 插件
