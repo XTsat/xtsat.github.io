@@ -1,0 +1,4 @@
+User-agent:*
+Disallow:
+
+Sitemap: https://github.com/XTsat/xtsat.github.io/sitemap.xml

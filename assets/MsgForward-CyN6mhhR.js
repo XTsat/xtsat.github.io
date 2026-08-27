@@ -1,0 +1,1 @@
+var e=`/assets/MsgForward-B-iLEZRH.png`;export{e as t};

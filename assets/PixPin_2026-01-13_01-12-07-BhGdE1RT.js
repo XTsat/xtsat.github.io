@@ -1,0 +1,1 @@
+var e=`/assets/PixPin_2026-01-13_01-12-07-o8qdiAMD.png`;export{e as t};

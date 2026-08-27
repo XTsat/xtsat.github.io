@@ -1,0 +1,1 @@
+var e=`/assets/ModelStatus-DN8pEVn8.png`;export{e as t};

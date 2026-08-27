@@ -1,0 +1,1 @@
+var e=`/assets/HelpPanelTypst-CWMR_z6u.png`;export{e as t};
