@@ -14,7 +14,7 @@ tag:
 
 [astrbot_plugin_model_status](https://github.com/XTsat/astrbot_plugin_model_status) 是一个 AstrBot 模型可用性检测插件，支持在 WebUI 中以卡片形式展示所有已配置模型提供器的健康状态，并支持定时持续检测。
 
-<img src="../../posts/photo/Astrbot/ModelStatus.png" width="400" />
+<img alt="ModelStatus" src="../../photo/Astrbot/ModelStatus.png" width="400" />
 
 ## 功能特性
 
@@ -44,4 +44,3 @@ tag:
 
 - 检测复用提供器内置的健康检查方法
 - 页面显示「没有已加载的模型提供器」时，请先在 WebUI 添加并启用提供器后重载插件
-

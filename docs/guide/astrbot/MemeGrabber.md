@@ -14,7 +14,7 @@ tag:
 
 [astrbot_plugin_meme_grabber](https://github.com/XTsat/astrbot_plugin_meme_grabber) 是一个专为 AstrBot 设计的表情包提取插件，Fork 自 [Yangyuwuhan/astrbot_plugin_meme_grabber](https://github.com/Yangyuwuhan/astrbot_plugin_meme_grabber)。
 
-<img src="../../posts/photo/Astrbot/MemeGrabber.png" width="400" />
+<img alt="MemeGrabber" src="../../photo/Astrbot/MemeGrabber.png" width="400" />
 
 ## 功能特性
 
@@ -45,7 +45,7 @@ tag:
 支持以下占位符：
 
 | 占位符 | 说明 | 示例 |
-|---|---|---|
+| --- | --- | --- |
 | `{DATE}` | 日期 | `20260630` |
 | `{TIME}` | 时间 | `143005` |
 | `{TIMESTAMP}` | 毫秒时间戳 | `1719734400000` |

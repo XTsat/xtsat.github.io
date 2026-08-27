@@ -14,12 +14,12 @@ tag:
 
 [astrbot_plugin_llm_balance](https://github.com/XTsat/astrbot_plugin_llm_balance) 是一个 AstrBot 多平台 LLM 余额查询插件，支持查询多个服务商的余额/用量。
 
-<img src="../../posts/photo/Astrbot/LLMBalance.png" width="400" />
+<img alt="LLMBalance" src="../../photo/Astrbot/LLMBalance.png" width="400" />
 
 ## 支持平台
 
 | 平台 | 简写 |
-|---|---|
+| --- | --- |
 | DeepSeek | `ds` / `deepseek` |
 | 硅基流动 | `硅基` / `siliconflow` |
 | Moonshot (Kimi) | `kimi` / `moonshot` |

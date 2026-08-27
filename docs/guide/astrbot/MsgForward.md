@@ -14,7 +14,7 @@ tag:
 
 [astrbot_plugin_msg_forward_cc](https://github.com/XTsat/astrbot_plugin_msg_forward_cc) 是一个简洁、稳健、可扩展的 AstrBot 跨平台消息转发插件，Fork 自 [Siaospeed/astrbot_plugin_msg_transfer](https://github.com/Siaospeed/astrbot_plugin_msg_transfer)。
 
-<img src="../../posts/photo/Astrbot/MsgForward.png" width="400" />
+<img alt="MsgForward" src="../../photo/Astrbot/MsgForward.png" width="400" />
 
 ## 功能特性
 
@@ -35,7 +35,7 @@ tag:
 ## 指令列表
 
 | 指令 | 说明 |
-|---|---|
+| --- | --- |
 | `mf add` | 创建消息转发绑定请求 |
 | `mf bind` | 接受消息转发绑定请求 |
 | `mf bindraw` | 直接创建转发绑定 |
